@@ -1,0 +1,21 @@
+{
+  "name": "Fripes Merveilles",
+  "url": "https://fripes-merveilles.vercel.app",
+  "phone": "06 13 03 30 42",
+  "phoneIntl": "+33 6 13 03 30 42",
+  "tel": "+33613033042",
+  "whatsapp": "33613033042",
+  "email": null,
+  "facebook": "https://www.facebook.com/FripesEtMerveilles/",
+  "address": { "street": "151 rue Gaulthier de Rumilly", "postalCode": "80000", "city": "Amiens", "district": "Henriville", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.88257, "lng": 2.29172 },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Fripes+et+Merveilles+151+rue+Gaulthier+de+Rumilly+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=151+rue+Gaulthier+de+Rumilly,+80000+Amiens&z=16&output=embed",
+  "rating": { "value": 4.8, "count": 76, "asOf": "2026-11-10", "source": "Google" },
+  "legal": {
+    "company": null,
+    "siret": null,
+    "director": null,
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  }
+}

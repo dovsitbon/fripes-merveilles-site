@@ -1,0 +1,47 @@
+{
+  "_note": "Page Prix (/fr/prix). Pour chaque famille : from = prix « à partir de » en euros, to = prix haut habituel (facultatif), ou null tant que la boutique ne les a pas donnés (affiché « prix en boutique »). Tout est À REMPLIR avec la boutique : aucun prix n'a été inventé.",
+  "categories": [
+    {
+      "id": "femme",
+      "items": [
+        { "id": "hauts", "name": { "fr": "Hauts, tee-shirts, chemisiers", "en": "Tops, T-shirts, blouses" }, "from": null, "to": null },
+        { "id": "pulls", "name": { "fr": "Pulls et gilets", "en": "Jumpers and cardigans" }, "from": null, "to": null },
+        { "id": "robes", "name": { "fr": "Robes et jupes", "en": "Dresses and skirts" }, "from": null, "to": null },
+        { "id": "pantalons", "name": { "fr": "Pantalons et jeans", "en": "Trousers and jeans" }, "from": null, "to": null },
+        { "id": "manteaux", "name": { "fr": "Vestes et manteaux", "en": "Jackets and coats" }, "from": null, "to": null }
+      ]
+    },
+    {
+      "id": "homme",
+      "items": [
+        { "id": "hauts", "name": { "fr": "Tee-shirts et chemises", "en": "T-shirts and shirts" }, "from": null, "to": null },
+        { "id": "pulls", "name": { "fr": "Pulls et sweats", "en": "Jumpers and sweatshirts" }, "from": null, "to": null },
+        { "id": "pantalons", "name": { "fr": "Pantalons et jeans", "en": "Trousers and jeans" }, "from": null, "to": null },
+        { "id": "manteaux", "name": { "fr": "Vestes et manteaux", "en": "Jackets and coats" }, "from": null, "to": null }
+      ]
+    },
+    {
+      "id": "bijoux",
+      "items": [
+        { "id": "boucles", "name": { "fr": "Boucles d'oreilles", "en": "Earrings" }, "from": null, "to": null },
+        { "id": "colliers", "name": { "fr": "Colliers et sautoirs", "en": "Necklaces" }, "from": null, "to": null },
+        { "id": "bagues", "name": { "fr": "Bagues et bracelets", "en": "Rings and bracelets" }, "from": null, "to": null },
+        { "id": "broches", "name": { "fr": "Broches, montres, petits trésors", "en": "Brooches, watches, little treasures" }, "from": null, "to": null }
+      ]
+    },
+    {
+      "id": "sacs",
+      "items": [
+        { "id": "sacs", "name": { "fr": "Sacs à main", "en": "Handbags" }, "from": null, "to": null },
+        { "id": "foulards", "name": { "fr": "Foulards, ceintures, chapeaux", "en": "Scarves, belts, hats" }, "from": null, "to": null },
+        { "id": "chaussures", "name": { "fr": "Chaussures", "en": "Shoes" }, "from": null, "to": null }
+      ]
+    },
+    {
+      "id": "vintage",
+      "items": [
+        { "id": "pieces", "name": { "fr": "Pièces vintage choisies", "en": "Hand-picked vintage pieces" }, "from": null, "to": null }
+      ]
+    }
+  ]
+}

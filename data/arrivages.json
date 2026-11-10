@@ -1,0 +1,15 @@
+{
+  "_note": "Arrivages et pièces du moment. date : jour de l'arrivage (AAAA-MM-JJ) ; le bandeau « Nouvel arrivage cette semaine » s'affiche pendant 7 jours. Chaque pièce : id unique, ref (étiquette en boutique), name fr/en, category (femme, homme, bijoux, sacs, vintage), size (XS, S, M, L, XL, 36, 38…, ou « Unique » pour les bijoux et sacs), price en euros (ou null : « prix en boutique »), priceFrom true si le prix varie (lot, plusieurs modèles), colors : 1 à 3 couleurs en hexadécimal (pastilles), status : dispo, reserve ou vendu, photo : /media/arrivages/<fichier>.jpg ou null. demo: true = pièce d'exemple à remplacer par les vraies pièces (une mention le signale sur le site tant qu'il en reste). Petits prix = prix inférieur ou égal à petitsPrix.",
+  "date": "2026-11-05",
+  "petitsPrix": 10,
+  "items": [
+    { "id": "manteau-laine", "ref": "A-001", "name": { "fr": "Manteau long en laine", "en": "Long wool coat" }, "category": "femme", "size": "M", "price": null, "priceFrom": false, "colors": ["#B8875A"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "robe-fleurie-70s", "ref": "A-002", "name": { "fr": "Robe fleurie années 70", "en": "1970s floral dress" }, "category": "vintage", "size": "38", "price": null, "priceFrom": false, "colors": ["#D59C9A", "#9AA58E"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "veste-jean", "ref": "A-003", "name": { "fr": "Veste en jean délavée", "en": "Washed denim jacket" }, "category": "homme", "size": "L", "price": null, "priceFrom": false, "colors": ["#6F87A3"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "bague-pierre-verte", "ref": "B-014", "name": { "fr": "Bague à pierre verte", "en": "Green stone ring" }, "category": "bijoux", "size": "Unique", "price": null, "priceFrom": false, "colors": ["#C9A24A", "#5E7F5B"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "sac-cuir-bordeaux", "ref": "S-007", "name": { "fr": "Sac en cuir bordeaux", "en": "Burgundy leather bag" }, "category": "sacs", "size": "Unique", "price": null, "priceFrom": false, "colors": ["#6E2A35"], "status": "reserve", "photo": null, "demo": true },
+    { "id": "pull-grosse-maille", "ref": "A-004", "name": { "fr": "Pull en grosse maille", "en": "Chunky knit jumper" }, "category": "femme", "size": "S", "price": null, "priceFrom": false, "colors": ["#D9A441"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "chemise-flanelle", "ref": "A-005", "name": { "fr": "Chemise en flanelle à carreaux", "en": "Checked flannel shirt" }, "category": "homme", "size": "M", "price": null, "priceFrom": false, "colors": ["#8E3B36", "#2F3A33"], "status": "dispo", "photo": null, "demo": true },
+    { "id": "boucles-dorees", "ref": "B-015", "name": { "fr": "Boucles d'oreilles dorées", "en": "Gold-tone earrings" }, "category": "bijoux", "size": "Unique", "price": null, "priceFrom": true, "colors": ["#C9A24A"], "status": "dispo", "photo": null, "demo": true }
+  ]
+}

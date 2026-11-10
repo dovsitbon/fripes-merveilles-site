@@ -1,0 +1,19 @@
+# Fripes Merveilles
+
+> Friperie (seconde main) du quartier Henriville, 151 rue Gaulthier de Rumilly, 80000 Amiens, France : vêtements femme et homme, vintage, bijoux, sacs et accessoires, petits prix. Téléphone et WhatsApp : 06 13 03 30 42. Note Google : 4,8/5 (76 avis, relevé du 10 novembre 2026).
+
+Horaires : du mercredi au samedi, 10 h – 19 h (à confirmer) ; fermé du dimanche au mardi.
+
+Arrivages : chaque semaine. Les pièces du moment sont sur la page Arrivages, filtrables par catégorie, taille et prix. Réservation d'une pièce par WhatsApp (message pré-rempli), sans paiement en ligne. Dépôt-vente : à confirmer avec la boutique, propositions par WhatsApp avec photos.
+
+## Pages
+
+- [Accueil](https://fripes-merveilles.vercel.app/fr): univers, arrivages, la boutique, bijoux, dépôt-vente, avis, infos pratiques, FAQ
+- [Arrivages](https://fripes-merveilles.vercel.app/fr/arrivages)
+- [Prix](https://fripes-merveilles.vercel.app/fr/prix)
+- [Friperie à Amiens](https://fripes-merveilles.vercel.app/fr/friperie-amiens)
+- [Bijoux vintage à Amiens](https://fripes-merveilles.vercel.app/fr/bijoux-vintage-amiens)
+- [Réserver une pièce](https://fripes-merveilles.vercel.app/fr/reserver)
+- [Dépôt-vente](https://fripes-merveilles.vercel.app/fr/depot-vente)
+- [English version](https://fripes-merveilles.vercel.app/en)
+- [Facebook](https://www.facebook.com/FripesEtMerveilles/)

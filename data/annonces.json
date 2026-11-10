@@ -1,0 +1,35 @@
+{
+  "_note": "Bandeau du haut de page, qu'on peut fermer. Ordre : 1) une annonce datée active ci-dessous (fermeture, événement ; la plus récente l'emporte) ; 2) « Nouvel arrivage cette semaine » si data/arrivages.json a une date de moins de 7 jours ; 3) le message par défaut. page : home, arrivages, reserver, depot, prix, friperie, bijoux ; hash facultatif (ancre, ex. infos). Fermetures : ajouter aussi les dates dans horaires.json → closures.",
+  "default": {
+    "id": "horaires",
+    "text": { "fr": "La boutique vous accueille du mercredi au samedi, de 10 h à 19 h.", "en": "The shop is open Wednesday to Saturday, 10am to 7pm." },
+    "link": { "fr": "Venir à la boutique", "en": "Visit the shop" },
+    "page": "home",
+    "hash": "infos"
+  },
+  "arrivage": {
+    "text": { "fr": "Nouvel arrivage cette semaine : de nouvelles pièces vous attendent en boutique.", "en": "New arrivals this week: fresh pieces are waiting for you in the shop." },
+    "link": { "fr": "Voir les arrivages", "en": "See what's new" },
+    "page": "arrivages"
+  },
+  "items": [
+    {
+      "id": "fermeture-noel-2026",
+      "from": "2026-12-20",
+      "to": "2026-12-25",
+      "text": { "fr": "Fermé le vendredi 25 décembre. D'ici là, la boutique déborde d'idées cadeaux de seconde main.", "en": "Closed on Friday 25 December. Until then, the shop is full of second-hand gift ideas." },
+      "link": { "fr": "Horaires", "en": "Opening hours" },
+      "page": "home",
+      "hash": "infos"
+    },
+    {
+      "id": "fermeture-jour-de-l-an-2027",
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "text": { "fr": "Fermé le vendredi 1er janvier. Belle année, pleine de trouvailles.", "en": "Closed on Friday 1 January. Here's to a year full of good finds." },
+      "link": { "fr": "Horaires", "en": "Opening hours" },
+      "page": "home",
+      "hash": "infos"
+    }
+  ]
+}

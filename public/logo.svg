@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 94">
+  <title>Fripes Merveilles, friperie à Amiens</title>
+  <g transform="translate(140 2) scale(0.84)" fill="none" stroke="#4A2C3A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 17.5v-2.2c2.6-.3 4.3-2.2 4.3-4.6A4.3 4.3 0 0 0 24 6.4a4.3 4.3 0 0 0-4.2 3.3"/>
+    <path d="M24 17.5 5.6 32.3c-1.5 1.2-.7 3.6 1.2 3.6h34.4c1.9 0 2.7-2.4 1.2-3.6L24 17.5Z"/>
+  </g>
+  <path d="M0-5c.4 3.4 1.6 4.6 5 5-3.4.4-4.6 1.6-5 5-.4-3.4-1.6-4.6-5-5 3.4-.4 4.6-1.6 5-5Z" transform="translate(171.5 6) scale(1.05)" fill="#D9A441"/>
+  <text x="160" y="66" text-anchor="middle" fill="#4A2C3A" font-family="Fraunces, Georgia, serif" font-weight="500" font-size="25" letter-spacing="2.5">FRIPES MERVEILLES</text>
+  <text x="160" y="88" text-anchor="middle" fill="#4A2C3A" opacity="0.78" font-family="Jost, Helvetica, Arial, sans-serif" font-size="9" letter-spacing="3">FRIPERIE · AMIENS</text>
+</svg>

@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "title": "Friperie et vintage à Amiens, Henriville | Fripes Merveilles",
+    "description": "Fripes Merveilles, friperie du quartier Henriville à Amiens : vêtements femme et homme, bijoux, sacs et accessoires de seconde main, vintage et petits prix. Arrivages chaque semaine, réservation par WhatsApp.",
+    "ogAlt": "Fripes Merveilles, friperie et vintage à Amiens"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Fripes Merveilles, accueil",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "lang": "Langue",
+    "arrivages": "Arrivages",
+    "vetements": "Vêtements",
+    "bijoux": "Bijoux",
+    "depot": "Dépôt-vente",
+    "infos": "Infos",
+    "prix": "Prix",
+    "reserver": "Réserver une pièce",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "facebook": "Fripes Merveilles sur Facebook"
+  },
+  "intro": { "skip": "Passer" },
+  "announce": { "close": "Fermer l'annonce" },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé",
+    "reopens": "réouverture {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "asOf": "Note relevée en {date}"
+  },
+  "hero": {
+    "eyebrow": "Friperie · Seconde main · Henriville, Amiens",
+    "title": "Seconde main, <em>premier coup de cœur</em>",
+    "lead": "Des vêtements, des bijoux et des petits trésors choisis un à un, qui n'attendent qu'une seconde vie. On entre pour jeter un œil, on ressort avec une trouvaille.",
+    "arrivages": "Voir les arrivages",
+    "venir": "Venir à la boutique",
+    "slot": "Photo de la boutique à venir",
+    "slides": "Photos de la boutique",
+    "slide": "Photo {n} sur {total}"
+  },
+  "tiles": {
+    "eyebrow": "Les univers",
+    "title": "Par où commencer la chine ?",
+    "from": "À partir de {price}",
+    "inShop": "Prix en boutique",
+    "items": {
+      "femme": { "title": "Femme", "text": "Robes, mailles, manteaux et jeans, dans toutes les tailles." },
+      "homme": { "title": "Homme", "text": "Chemises, vestes, pulls et denim qui ont du vécu." },
+      "bijoux": { "title": "Bijoux", "text": "Bagues, boucles, colliers et broches d'hier et d'aujourd'hui." },
+      "sacs": { "title": "Sacs et accessoires", "text": "Sacs, foulards, ceintures et chapeaux pour finir la tenue." },
+      "vintage": { "title": "Vintage", "text": "Les pièces d'une autre époque, mises de côté pour vous." },
+      "petits-prix": { "title": "Petits prix", "text": "Les bonnes affaires qui font plaisir sans y penser." }
+    }
+  },
+  "services": {
+    "label": "Ce que la boutique vous propose",
+    "items": [
+      { "title": "Des arrivages chaque semaine", "text": "Le portant change souvent : repassez, il y a toujours du nouveau." },
+      { "title": "Des petits prix", "text": "La seconde main, c'est bien habillé sans se ruiner." },
+      { "title": "Réservation par WhatsApp", "text": "Une pièce vous plaît ? Un message, et on vous la met de côté." },
+      { "title": "Dépôt-vente", "text": "Des vêtements qui dorment dans vos placards ? Parlons-en (à confirmer)." }
+    ]
+  },
+  "arrivals": {
+    "eyebrow": "Arrivages",
+    "title": "Les pièces du moment",
+    "lead": "Chaque pièce est unique : quand elle part, elle ne revient pas. Réservez-la sur WhatsApp, on la garde de côté pour vous.",
+    "dated": "Arrivage du {date}",
+    "demo": "Exemples de présentation : les vraies pièces et leurs photos arrivent très vite.",
+    "all": "Voir tous les arrivages",
+    "reserve": "Réserver sur WhatsApp",
+    "reserveForm": "Réserver cette pièce",
+    "status": { "dispo": "Disponible", "reserve": "Réservée", "vendu": "Partie" },
+    "size": "Taille",
+    "unique": "Taille unique",
+    "inShop": "Prix en boutique",
+    "from": "dès {price}",
+    "ref": "Réf.",
+    "colors": "Couleurs",
+    "photoSoon": "Photo à venir",
+    "categories": { "femme": "Femme", "homme": "Homme", "bijoux": "Bijoux", "sacs": "Sacs et accessoires", "vintage": "Vintage" },
+    "filters": {
+      "title": "Filtrer",
+      "category": "Catégorie",
+      "size": "Taille",
+      "price": "Prix",
+      "all": "Tout",
+      "reset": "Tout effacer",
+      "results": "{n} pièce(s)",
+      "none": "Aucune pièce ne correspond pour le moment. Les arrivages changent chaque semaine : élargissez votre recherche ou écrivez-nous ce que vous cherchez.",
+      "ask": "Demander sur WhatsApp",
+      "prices": { "all": "Tous les prix", "petits": "Jusqu'à {n} €", "mid": "De {a} à {b} €", "high": "Plus de {n} €" }
+    }
+  },
+  "blocks": {
+    "esprit": {
+      "eyebrow": "La boutique",
+      "title": "Un cabinet de curiosités où l'on chine",
+      "text": "Ici, on prend le temps de fouiller. Les portants changent au fil des arrivages, les bijoux brillent dans leurs vitrines et chaque visite réserve sa surprise. L'accueil est simple et chaleureux : on vous conseille si vous le souhaitez, on vous laisse rêver sinon.",
+      "cta": "Venir à la boutique"
+    },
+    "bijoux": {
+      "eyebrow": "Bijoux et accessoires",
+      "title": "Les petits trésors qui changent tout",
+      "text": "Une bague ancienne, une broche oubliée, un sac qui a déjà voyagé : ce sont souvent les détails qui font la tenue. Ils sont choisis avec soin et ne restent jamais longtemps.",
+      "cta": "Voir les bijoux"
+    },
+    "depot": {
+      "eyebrow": "Dépôt-vente",
+      "title": "Vos belles pièces méritent une seconde histoire",
+      "text": "Vous avez des vêtements, des sacs ou des bijoux en bon état que vous ne portez plus ? Présentez-les nous en quelques photos : la boutique vous dira ce qu'elle peut en faire. Formule de dépôt-vente à confirmer avec la boutique.",
+      "cta": "Proposer des vêtements"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ils en parlent",
+    "title": "Ce qui revient le plus dans les avis",
+    "themes": ["La boutique", "Les prix", "Le choix", "L'accueil sympathique", "Les bijoux", "Les petits trésors"],
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Venir à la boutique",
+    "address": "Adresse",
+    "route": "Itinéraire",
+    "phone": "Téléphone",
+    "whatsapp": "Écrire sur WhatsApp",
+    "hours": "Horaires",
+    "access": "Accès et stationnement",
+    "accessText": "Dans le quartier Henriville, au sud du centre-ville, à une quinzaine de minutes à pied de la gare d'Amiens. Stationnement dans les rues alentour.",
+    "mapTitle": "Plan d'accès à Fripes Merveilles, 151 rue Gaulthier de Rumilly à Amiens",
+    "closedDay": "Fermé",
+    "closures": "Fermetures exceptionnelles"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de passer",
+    "items": [
+      { "q": "Quels sont vos horaires ?", "a": "La boutique est ouverte du mercredi au samedi, de 10 h à 19 h. Les fermetures exceptionnelles sont annoncées en haut du site." },
+      { "q": "Quand arrivent les nouvelles pièces ?", "a": "Il y a de nouveaux arrivages chaque semaine. Les pièces du moment sont visibles sur la page Arrivages, et le bandeau du site vous prévient quand un arrivage vient d'avoir lieu." },
+      { "q": "Comment réserver une pièce ?", "a": "Cliquez sur « Réserver sur WhatsApp » sous la pièce, ou remplissez le formulaire de réservation : un message tout prêt part vers la boutique. La pièce est gardée de côté quelques jours, le temps de passer la chercher." },
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Les espèces et la carte bancaire. En cas de doute, un message sur WhatsApp suffit pour vérifier." },
+      { "q": "Faites-vous du dépôt-vente ?", "a": "C'est à l'étude. Présentez-nous vos vêtements par le formulaire Dépôt-vente, photos à l'appui : la boutique vous répond directement sur WhatsApp." },
+      { "q": "Où se garer ?", "a": "La boutique est au 151 rue Gaulthier de Rumilly, dans le quartier Henriville. On se gare dans les rues voisines, et la gare d'Amiens est à une quinzaine de minutes à pied." }
+    ]
+  },
+  "footer": {
+    "tagline": "Friperie, bijoux et accessoires de seconde main, dans le quartier Henriville à Amiens.",
+    "contact": "Contact",
+    "pages": "Le site",
+    "days": "Du mercredi au samedi\n10 h – 19 h",
+    "closed": "Fermé du dimanche au mardi",
+    "rights": "Fripes Merveilles, Amiens",
+    "legal": "Mentions légales"
+  },
+  "reserve": {
+    "eyebrow": "Réservation",
+    "title": "Réserver une pièce",
+    "lead": "Dites-nous quelle pièce vous fait envie : le message part sur WhatsApp et la boutique vous la met de côté.",
+    "chosen": "Pièce choisie",
+    "change": "Changer",
+    "fields": {
+      "piece": "Pièce souhaitée",
+      "piecePh": "Ex. la robe fleurie vue en vitrine, la bague réf. B-014…",
+      "size": "Taille",
+      "sizePh": "Ex. M, 38, taille unique",
+      "name": "Votre nom",
+      "phone": "Votre téléphone",
+      "message": "Un mot pour la boutique",
+      "messagePh": "Le jour où vous pensez passer, une question sur la pièce…",
+      "optional": "facultatif"
+    },
+    "errors": {
+      "piece": "Indiquez la pièce qui vous intéresse.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide."
+    },
+    "submit": "Envoyer sur WhatsApp",
+    "note": "WhatsApp s'ouvre avec votre message tout prêt : il ne reste qu'à l'envoyer. Aucun paiement en ligne.",
+    "sent": "WhatsApp s'est ouvert dans un nouvel onglet. Si rien ne s'est passé, utilisez le bouton ci-dessous ou appelez la boutique.",
+    "again": "Ouvrir WhatsApp",
+    "preferCall": "Vous préférez appeler ?",
+    "recapTitle": "Réservation d'une pièce, Fripes Merveilles",
+    "recap": { "piece": "Pièce", "ref": "Référence", "size": "Taille", "name": "Nom", "phone": "Téléphone", "message": "Message", "from": "Envoyé depuis le site" }
+  },
+  "depot": {
+    "eyebrow": "Dépôt-vente",
+    "title": "Proposer des vêtements",
+    "lead": "Présentez-nous ce que vous aimeriez confier à la boutique. Le dépôt-vente est à confirmer avec la boutique : elle vous répond directement sur WhatsApp.",
+    "steps": [
+      { "title": "Vous décrivez", "text": "Le type de pièces et la quantité, en quelques clics." },
+      { "title": "Vous envoyez des photos", "text": "Directement dans la conversation WhatsApp qui s'ouvre." },
+      { "title": "La boutique vous répond", "text": "Ce qu'elle peut prendre, et comment on s'organise." }
+    ],
+    "fields": {
+      "types": "Type de vêtements",
+      "typeList": { "femme": "Femme", "homme": "Homme", "enfant": "Enfant", "bijoux": "Bijoux", "sacs": "Sacs et accessoires", "chaussures": "Chaussures", "vintage": "Vintage" },
+      "quantity": "Quantité",
+      "quantityList": { "few": "Quelques pièces (1 à 5)", "some": "Un petit sac (5 à 15)", "lot": "Un lot (plus de 15)" },
+      "photos": "Photos",
+      "photosList": { "yes": "J'envoie mes photos dans WhatsApp", "later": "Je les enverrai plus tard" },
+      "photosHint": "WhatsApp ne permet pas de joindre des photos depuis un site : vous les ajouterez dans la conversation, juste après votre message.",
+      "name": "Votre nom",
+      "phone": "Votre téléphone",
+      "message": "Précisions",
+      "messagePh": "Marques, état, tailles, période vintage…",
+      "optional": "facultatif"
+    },
+    "errors": {
+      "types": "Choisissez au moins un type de pièces.",
+      "quantity": "Indiquez la quantité.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide."
+    },
+    "submit": "Envoyer sur WhatsApp",
+    "recapTitle": "Proposition de dépôt-vente, Fripes Merveilles",
+    "recap": { "types": "Type de vêtements", "quantity": "Quantité", "photos": "Photos", "name": "Nom", "phone": "Téléphone", "message": "Précisions", "from": "Envoyé depuis le site" }
+  },
+  "prices": {
+    "eyebrow": "Prix",
+    "title": "Des prix doux, pièce par pièce",
+    "lead": "En friperie, chaque pièce a son prix, selon sa matière, sa marque et son état. Voici les repères par famille : le prix exact est sur l'étiquette.",
+    "head": { "family": "Famille", "price": "Prix" },
+    "inShop": "Prix en boutique",
+    "from": "à partir de {price}",
+    "range": "{from} – {to}",
+    "note": "Prix indicatifs, susceptibles de varier selon les arrivages.",
+    "petits": "Le coin des petits prix : des pièces à {n} € ou moins, à dénicher en boutique."
+  },
+  "pages": {
+    "arrivages": {
+      "metaTitle": "Arrivages et pièces du moment | Fripes Merveilles, friperie à Amiens",
+      "metaDescription": "Les dernières pièces arrivées chez Fripes Merveilles à Amiens : vêtements femme et homme, bijoux, sacs, vintage. Filtrez par catégorie, taille et prix, réservez sur WhatsApp.",
+      "eyebrow": "Arrivages",
+      "title": "Les pièces du moment",
+      "lead": "Filtrez par catégorie, taille ou prix. Une pièce vous plaît ? Réservez-la sur WhatsApp, elle vous attend en boutique."
+    },
+    "prix": {
+      "metaTitle": "Prix de la friperie | Fripes Merveilles, Amiens",
+      "metaDescription": "Les prix de Fripes Merveilles à Amiens, famille par famille : vêtements femme et homme, bijoux, sacs et accessoires, vintage. Prix doux, petits prix en boutique."
+    },
+    "reserver": {
+      "metaTitle": "Réserver une pièce | Fripes Merveilles, Amiens",
+      "metaDescription": "Réservez une pièce de la friperie Fripes Merveilles à Amiens : un message WhatsApp tout prêt, la pièce est mise de côté pour vous."
+    },
+    "depot": {
+      "metaTitle": "Dépôt-vente de vêtements à Amiens | Fripes Merveilles",
+      "metaDescription": "Proposez vos vêtements, sacs et bijoux à Fripes Merveilles, friperie du quartier Henriville à Amiens : décrivez vos pièces et envoyez vos photos sur WhatsApp."
+    },
+    "friperie": {
+      "metaTitle": "Friperie à Amiens, quartier Henriville | Fripes Merveilles",
+      "metaDescription": "Une friperie à Amiens pour chiner vêtements femme et homme, vintage et seconde main à petits prix. Arrivages chaque semaine, 151 rue Gaulthier de Rumilly.",
+      "eyebrow": "Friperie à Amiens",
+      "title": "Une friperie à Amiens, côté Henriville",
+      "intro": "Fripes Merveilles, c'est la friperie du quartier Henriville : des vêtements de seconde main pour femme et homme, du vintage, des bijoux et des accessoires, avec de nouvelles pièces chaque semaine.",
+      "cta": "Voir les arrivages",
+      "listTitle": "Ce que l'on trouve en boutique",
+      "list": [
+        { "title": "Vêtements femme", "text": "Robes, jupes, mailles, chemisiers, jeans, vestes et manteaux, du XS aux grandes tailles selon les arrivages." },
+        { "title": "Vêtements homme", "text": "Chemises, pulls, sweats, denim et vestes, des basiques aux pièces de caractère." },
+        { "title": "Vintage", "text": "Des pièces d'autres décennies, choisies pour leur coupe, leur matière ou leur histoire." },
+        { "title": "Petits prix", "text": "Un coin de bonnes affaires pour s'habiller bien sans se ruiner." }
+      ],
+      "whyTitle": "Pourquoi chiner en seconde main",
+      "why": [
+        { "title": "Des pièces uniques", "text": "Personne ne portera la même chose que vous : chaque vêtement est un exemplaire." },
+        { "title": "Un geste pour la planète", "text": "Donner une seconde vie à un vêtement, c'est autant de tissu qui ne se fabrique pas." },
+        { "title": "Des matières qui durent", "text": "Laine, coton épais, cuir : la seconde main recèle souvent de belles qualités." }
+      ]
+    },
+    "bijoux": {
+      "metaTitle": "Bijoux vintage à Amiens | Fripes Merveilles, Henriville",
+      "metaDescription": "Bijoux vintage et de seconde main à Amiens : bagues, boucles d'oreilles, colliers, broches, montres. Des petits trésors à dénicher chez Fripes Merveilles, quartier Henriville.",
+      "eyebrow": "Bijoux vintage à Amiens",
+      "title": "Bijoux vintage et petits trésors, à Amiens",
+      "intro": "Les bijoux sont l'une des fiertés de Fripes Merveilles : bagues, boucles, colliers et broches de seconde main, choisis pour leur charme. Ils partent vite : passez souvent, ou réservez sur WhatsApp.",
+      "cta": "Voir les bijoux du moment",
+      "listTitle": "Dans les vitrines",
+      "list": [
+        { "title": "Bagues", "text": "Pierres de couleur, chevalières, anneaux fins : il y en a pour chaque main." },
+        { "title": "Boucles d'oreilles", "text": "Créoles, pendantes, clips d'époque, pour toutes les envies." },
+        { "title": "Colliers et sautoirs", "text": "Chaînes, perles et pendentifs qui réveillent une tenue simple." },
+        { "title": "Broches et montres", "text": "Les petits objets d'hier, à porter ou à offrir." }
+      ],
+      "whyTitle": "Offrir un bijou de seconde main",
+      "why": [
+        { "title": "Un cadeau qui a une histoire", "text": "Un bijou ancien raconte quelque chose : c'est ce qui le rend précieux." },
+        { "title": "Un prix doux", "text": "La seconde main permet d'offrir du beau sans compter chaque euro." },
+        { "title": "Mis de côté pour vous", "text": "Repéré sur le site ? Un message WhatsApp et il vous attend en boutique." }
+      ]
+    }
+  },
+  "legal": {
+    "metaTitle": "Mentions légales | Fripes Merveilles",
+    "title": "Mentions légales",
+    "editor": "Éditeur",
+    "editorText": "{company}, friperie, 151 rue Gaulthier de Rumilly, 80000 Amiens. Téléphone : 06 13 03 30 42.",
+    "siret": "SIRET : {siret}.",
+    "siretMissing": "SIRET : à compléter.",
+    "director": "Responsable de la publication : {director}.",
+    "host": "Hébergement",
+    "data": "Données personnelles",
+    "dataText": "Le site ne collecte aucune donnée : les formulaires préparent un message WhatsApp que vous envoyez vous-même, depuis votre téléphone ou votre ordinateur. Rien n'est enregistré sur le site.",
+    "photos": "Photos",
+    "photosText": "Photos de la boutique et des pièces : Fripes Merveilles. Le site n'utilise aucune image de banque d'images.",
+    "cookies": "Cookies",
+    "cookiesText": "Aucun cookie publicitaire ni de mesure d'audience. Le site retient seulement votre choix de langue et la fermeture du bandeau d'annonces, sur votre appareil."
+  },
+  "alt": {}
+}

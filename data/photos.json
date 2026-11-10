@@ -1,0 +1,17 @@
+{
+  "_note": "Emplacements photo du site. Chemin /media/<dossier>/<fichier>.jpg (préparé par npm run media depuis assets/), ou null : le site affiche alors un emplacement dessiné, sans fausse photo. hero : 0 à 5 photos (carrousel). Pour ajouter une photo prise sur place : la poser dans assets/<dossier>/, l'ajouter à scripts/media.mjs (PICKS), lancer npm run media, puis renseigner ici le chemin. Les photos des pièces se mettent dans data/arrivages.json (champ photo).",
+  "hero": [],
+  "esprit": null,
+  "bijoux": null,
+  "depot": null,
+  "facade": null,
+  "friperie": null,
+  "tiles": {
+    "femme": null,
+    "homme": null,
+    "bijoux": null,
+    "sacs": null,
+    "vintage": null,
+    "petits-prix": null
+  }
+}
