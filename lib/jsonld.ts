@@ -26,7 +26,7 @@ export function businessJsonLd(lang: Locale) {
         additionalType: "http://www.productontology.org/id/Second-hand_shop",
         "@id": BUSINESS_ID,
         name: site.name,
-        alternateName: "Fripes et Merveilles",
+        alternateName: "Fripes & Merveilles",
         description: d.meta.description,
         url: `${site.url}/${lang}`,
         image: images,

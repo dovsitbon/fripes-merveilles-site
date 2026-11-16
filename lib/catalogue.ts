@@ -34,7 +34,7 @@ export const isFreshArrival = (todayIso: string) => arrivalDate <= todayIso && a
 /** Tailles présentes dans les arrivages, dans un ordre lisible. */
 const SIZE_ORDER = ["XXS", "XS", "S", "M", "L", "XL", "XXL"];
 export function sizesOf(list: Piece[]) {
-  const all = [...new Set(list.map((p) => p.size))];
+  const all = [...new Set(list.map((p) => p.size).filter(Boolean))];
   const rank = (s: string) => (SIZE_ORDER.includes(s) ? SIZE_ORDER.indexOf(s) : /^\d+$/.test(s) ? 100 + Number(s) : 1000);
   return all.sort((a, b) => rank(a) - rank(b));
 }

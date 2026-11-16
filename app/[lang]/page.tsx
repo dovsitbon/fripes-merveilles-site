@@ -112,7 +112,7 @@ function Arrivals({ lang, d }: { lang: Locale; d: Dict }) {
   return (
     <section id="arrivages" aria-labelledby="arrivals-title" className="mx-auto max-w-[90rem] px-5 py-20 sm:px-8 lg:px-10 lg:py-28">
       <div className="flex flex-wrap items-end justify-between gap-6">
-        <SectionHead eyebrow={`${a.eyebrow} · ${fill(a.dated, { date: new Intl.DateTimeFormat(intlLocale[lang], { day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(arrivalDate)) })}`} title={a.title} lead={a.lead} id="arrivals-title" />
+        <SectionHead eyebrow={hasDemo ? a.eyebrow : `${a.eyebrow} · ${fill(a.dated, { date: new Intl.DateTimeFormat(intlLocale[lang], { day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(arrivalDate)) })}`} title={a.title} lead={a.lead} id="arrivals-title" />
         <Link href={href(lang, "arrivages")} className="link-line shrink-0 text-[0.9375rem]">
           {a.all}
         </Link>

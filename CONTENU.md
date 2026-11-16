@@ -64,14 +64,15 @@ Arrivage du 2026-11-05. Les pièces ci-dessous sont **des exemples de présentat
 
 | Réf. | Pièce | Catégorie | Taille | Prix | Statut |
 |---|---|---|---|---|---|
-| A-001 | Manteau long en laine / *Long wool coat* | Femme | M | à remplir | dispo · exemple |
-| A-002 | Robe fleurie années 70 / *1970s floral dress* | Vintage | 38 | à remplir | dispo · exemple |
-| A-003 | Veste en jean délavée / *Washed denim jacket* | Homme | L | à remplir | dispo · exemple |
-| B-014 | Bague à pierre verte / *Green stone ring* | Bijoux | Unique | à remplir | dispo · exemple |
-| S-007 | Sac en cuir bordeaux / *Burgundy leather bag* | Sacs et accessoires | Unique | à remplir | reserve · exemple |
-| A-004 | Pull en grosse maille / *Chunky knit jumper* | Femme | S | à remplir | dispo · exemple |
-| A-005 | Chemise en flanelle à carreaux / *Checked flannel shirt* | Homme | M | à remplir | dispo · exemple |
-| B-015 | Boucles d'oreilles dorées / *Gold-tone earrings* | Bijoux | Unique | à remplir | dispo · exemple |
+| A-101 | Robe rouge à pois blancs / *Red polka-dot dress* | Vintage |  | à remplir | dispo · exemple |
+| A-102 | Parka jaune Element / *Yellow Element parka* | Homme |  | à remplir | dispo · exemple |
+| A-103 | Blazer marine Georges Rech / *Navy Georges Rech blazer* | Femme |  | à remplir | dispo · exemple |
+| S-104 | Pochette en cuir rouge / *Red leather clutch* | Sacs et accessoires | Unique | à remplir | dispo · exemple |
+| S-105 | Escarpins rouges à bout ouvert / *Red peep-toe heels* | Sacs et accessoires |  | à remplir | dispo · exemple |
+| S-106 | Vanity en cuir camel / *Tan leather vanity case* | Sacs et accessoires | Unique | à remplir | dispo · exemple |
+| A-107 | Caban marine à double boutonnage / *Double-breasted navy coat* | Femme |  | à remplir | dispo · exemple |
+| V-108 | Vase coquillage en céramique bleue / *Blue ceramic shell vase* | Vintage | Unique | à remplir | dispo · exemple |
+| S-109 | Baskets Trial en toile orange / *Orange canvas Trial sneakers* | Vintage |  | à remplir | dispo · exemple |
 
 ## Horaires (`data/horaires.json`)
 
@@ -211,7 +212,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `arrivals.title` | Les pièces du moment | Pieces of the moment | |
 | `arrivals.lead` | Chaque pièce est unique : quand elle part, elle ne revient pas. Réservez-la sur WhatsApp, on la garde de côté pour vous. | Every piece is one of a kind: once it's gone, it's gone. Reserve it on WhatsApp and we'll keep it aside for you. | |
 | `arrivals.dated` | Arrivage du {date} | Arrivals of {date} | |
-| `arrivals.demo` | Exemples de présentation : les vraies pièces et leurs photos arrivent très vite. | Layout examples: the real pieces and their photos are coming very soon. | |
+| `arrivals.demo` | Pièces déjà présentées par la boutique : certaines sont peut-être parties. Demandez-nous sur WhatsApp, ou passez voir les nouveautés. | Pieces the shop has already shown: some may have gone. Ask us on WhatsApp, or drop by for what's new. | |
 | `arrivals.all` | Voir tous les arrivages | See all new arrivals | |
 | `arrivals.reserve` | Réserver sur WhatsApp | Reserve on WhatsApp | |
 | `arrivals.reserveForm` | Réserver cette pièce | Reserve this piece | |
@@ -496,6 +497,6 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `legal.data` | Données personnelles | Personal data | |
 | `legal.dataText` | Le site ne collecte aucune donnée : les formulaires préparent un message WhatsApp que vous envoyez vous-même, depuis votre téléphone ou votre ordinateur. Rien n'est enregistré sur le site. | The site collects no data: the forms prepare a WhatsApp message that you send yourself, from your phone or computer. Nothing is stored on the site. | |
 | `legal.photos` | Photos | Photos | |
-| `legal.photosText` | Photos de la boutique et des pièces : Fripes Merveilles. Le site n'utilise aucune image de banque d'images. | Photos of the shop and pieces: Fripes Merveilles. The site uses no stock images. | |
+| `legal.photosText` | Photos de la boutique et des pièces : Fripes & Merveilles (publiées sur sa page Facebook). Le site n'utilise aucune image de banque d'images. | Photos of the shop and pieces: Fripes & Merveilles (published on its Facebook page). The site uses no stock images. | |
 | `legal.cookies` | Cookies | Cookies | |
 | `legal.cookiesText` | Aucun cookie publicitaire ni de mesure d'audience. Le site retient seulement votre choix de langue et la fermeture du bandeau d'annonces, sur votre appareil. | No advertising or analytics cookies. The site only remembers your language choice and whether you closed the announcement banner, on your device. | |

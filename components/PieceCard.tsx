@@ -30,7 +30,7 @@ export function priceLabel(p: Piece, lang: Locale, d: Dict) {
 export function PieceCard({ p, lang, d, priority = false }: { p: Piece; lang: Locale; d: Dict; priority?: boolean }) {
   const a = d.arrivals;
   const gone = p.status === "vendu";
-  const size = p.size === "Unique" ? a.unique : `${a.size} ${p.size}`;
+  const size = !p.size ? "" : p.size === "Unique" ? a.unique : `${a.size} ${p.size}`;
   const photo = p.photo ? (sizes as Record<string, number[]>)[p.photo] : null;
   return (
     <article className={`group flex h-full flex-col ${gone ? "opacity-60" : ""}`}>
@@ -52,7 +52,8 @@ export function PieceCard({ p, lang, d, priority = false }: { p: Piece; lang: Lo
       </div>
       <div className="mt-4 flex items-center justify-between gap-3 text-[0.75rem] tracking-[0.14em] text-muted uppercase">
         <span>
-          {a.categories[p.category]} · {size}
+          {a.categories[p.category]}
+          {size && ` · ${size}`}
         </span>
         <span className="flex items-center gap-1.5" aria-label={a.colors}>
           {p.colors.map((c) => (

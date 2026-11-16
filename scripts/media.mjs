@@ -14,12 +14,31 @@ const DIRS = ["raw", "hero", "boutique", "arrivages", "bijoux", "facade"];
 
 // [fichier source (depuis assets/), dossier, nom, recadrage { top, bottom, left, right } en pixels retirés]
 const PICKS = [
-  // Exemples, à décommenter avec les photos prises sur place :
-  // ["hero/vitrine-portants.jpg", "hero", "vitrine-portants", {}],
-  // ["boutique/cabine-miroir.jpg", "boutique", "cabine-miroir", {}],
-  // ["bijoux/vitrine-bagues.jpg", "bijoux", "vitrine-bagues", {}],
-  // ["facade/devanture-rue-gaulthier-de-rumilly.jpg", "facade", "devanture", {}],
-  // ["arrivages/robe-fleurie-70s.jpg", "arrivages", "robe-fleurie-70s", {}],
+  // Photos publiées par la boutique sur sa page Facebook (facebook.com/FripesEtMerveilles), voir PHOTOS-SOURCES.md
+  ["raw/fb_050.jpg", "hero", "robe-vintage-boutique", {}],
+  ["raw/fb_052.jpg", "hero", "portant-chemisiers", {}],
+  ["raw/fb_066.jpg", "hero", "comptoir-vitrines-bijoux", {}],
+  ["raw/fb_117.jpg", "hero", "manteaux-cuir-vitrine", { bottom: 300 }],
+  ["raw/fb_068.jpg", "hero", "devanture-bleue", {}],
+  ["raw/fb_027.jpg", "boutique", "miroir-osier-boutique", {}],
+  ["raw/fb_103.jpg", "boutique", "portant-mailles", {}],
+  ["raw/fb_105.jpg", "boutique", "portant-vestes", {}],
+  ["raw/fb_057.jpg", "boutique", "combinaison-rouge-mannequin", {}],
+  ["raw/fb_070.jpg", "boutique", "portant-jeans", {}],
+  ["raw/fb_062.jpg", "boutique", "veste-fleurie-vintage", {}],
+  ["raw/fb_067.jpg", "facade", "facade-angle-rue", {}],
+  ["raw/fb_041.jpg", "bijoux", "presentoir-bracelets", {}],
+  ["raw/fb_048.jpg", "bijoux", "collier-perles-vertes", {}],
+  ["raw/fb_110.jpg", "bijoux", "colliers-petits-prix", { left: 70, top: 60, right: 760, bottom: 60 }],
+  ["raw/fb_009.jpg", "arrivages", "pochette-cuir-rouge", {}],
+  ["raw/fb_089.jpg", "arrivages", "robe-rouge-pois", {}],
+  ["raw/fb_109.jpg", "arrivages", "parka-jaune-element", {}],
+  ["raw/fb_098.jpg", "arrivages", "blazer-marine-georges-rech", {}],
+  ["raw/fb_056.jpg", "arrivages", "escarpins-rouges", {}],
+  ["raw/fb_097.jpg", "arrivages", "vanity-cuir-camel", {}],
+  ["raw/fb_020.jpg", "arrivages", "vase-coquillage-bleu", {}],
+  ["raw/fb_022.jpg", "arrivages", "baskets-trial-orange", {}],
+  ["raw/fb_029.jpg", "arrivages", "caban-marine", {}],
 ];
 
 const sizes = {};

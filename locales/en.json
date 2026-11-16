@@ -21,8 +21,12 @@
     "whatsapp": "WhatsApp",
     "facebook": "Fripes Merveilles on Facebook"
   },
-  "intro": { "skip": "Skip" },
-  "announce": { "close": "Close announcement" },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close announcement"
+  },
   "status": {
     "open": "Open now",
     "until": "until {time}",
@@ -31,7 +35,15 @@
     "today": "today",
     "tomorrow": "tomorrow"
   },
-  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
   "rating": {
     "label": "{value}/5 on Google",
     "count": "{count} reviews",
@@ -53,21 +65,51 @@
     "from": "From {price}",
     "inShop": "Prices in store",
     "items": {
-      "femme": { "title": "Women", "text": "Dresses, knitwear, coats and jeans, in every size." },
-      "homme": { "title": "Men", "text": "Shirts, jackets, jumpers and denim with a past." },
-      "bijoux": { "title": "Jewellery", "text": "Rings, earrings, necklaces and brooches, old and new." },
-      "sacs": { "title": "Bags and accessories", "text": "Bags, scarves, belts and hats to finish the look." },
-      "vintage": { "title": "Vintage", "text": "Pieces from another era, set aside for you." },
-      "petits-prix": { "title": "Bargains", "text": "Good deals that make you smile without a second thought." }
+      "femme": {
+        "title": "Women",
+        "text": "Dresses, knitwear, coats and jeans, in every size."
+      },
+      "homme": {
+        "title": "Men",
+        "text": "Shirts, jackets, jumpers and denim with a past."
+      },
+      "bijoux": {
+        "title": "Jewellery",
+        "text": "Rings, earrings, necklaces and brooches, old and new."
+      },
+      "sacs": {
+        "title": "Bags and accessories",
+        "text": "Bags, scarves, belts and hats to finish the look."
+      },
+      "vintage": {
+        "title": "Vintage",
+        "text": "Pieces from another era, set aside for you."
+      },
+      "petits-prix": {
+        "title": "Bargains",
+        "text": "Good deals that make you smile without a second thought."
+      }
     }
   },
   "services": {
     "label": "What the shop offers",
     "items": [
-      { "title": "New in every week", "text": "The rails change often: come back, there's always something new." },
-      { "title": "Gentle prices", "text": "Second hand means dressing well without breaking the bank." },
-      { "title": "Reserve on WhatsApp", "text": "Like a piece? Send a message and we'll put it aside for you." },
-      { "title": "Consignment", "text": "Clothes asleep in your wardrobe? Let's talk (to be confirmed)." }
+      {
+        "title": "New in every week",
+        "text": "The rails change often: come back, there's always something new."
+      },
+      {
+        "title": "Gentle prices",
+        "text": "Second hand means dressing well without breaking the bank."
+      },
+      {
+        "title": "Reserve on WhatsApp",
+        "text": "Like a piece? Send a message and we'll put it aside for you."
+      },
+      {
+        "title": "Consignment",
+        "text": "Clothes asleep in your wardrobe? Let's talk (to be confirmed)."
+      }
     ]
   },
   "arrivals": {
@@ -75,11 +117,15 @@
     "title": "Pieces of the moment",
     "lead": "Every piece is one of a kind: once it's gone, it's gone. Reserve it on WhatsApp and we'll keep it aside for you.",
     "dated": "Arrivals of {date}",
-    "demo": "Layout examples: the real pieces and their photos are coming very soon.",
+    "demo": "Pieces the shop has already shown: some may have gone. Ask us on WhatsApp, or drop by for what's new.",
     "all": "See all new arrivals",
     "reserve": "Reserve on WhatsApp",
     "reserveForm": "Reserve this piece",
-    "status": { "dispo": "Available", "reserve": "Reserved", "vendu": "Gone" },
+    "status": {
+      "dispo": "Available",
+      "reserve": "Reserved",
+      "vendu": "Gone"
+    },
     "size": "Size",
     "unique": "One size",
     "inShop": "Price in store",
@@ -87,7 +133,13 @@
     "ref": "Ref.",
     "colors": "Colours",
     "photoSoon": "Photo coming soon",
-    "categories": { "femme": "Women", "homme": "Men", "bijoux": "Jewellery", "sacs": "Bags and accessories", "vintage": "Vintage" },
+    "categories": {
+      "femme": "Women",
+      "homme": "Men",
+      "bijoux": "Jewellery",
+      "sacs": "Bags and accessories",
+      "vintage": "Vintage"
+    },
     "filters": {
       "title": "Filter",
       "category": "Category",
@@ -98,7 +150,12 @@
       "results": "{n} piece(s)",
       "none": "Nothing matches right now. The rails change every week: widen your search or tell us what you're looking for.",
       "ask": "Ask on WhatsApp",
-      "prices": { "all": "All prices", "petits": "Up to €{n}", "mid": "€{a} to €{b}", "high": "Over €{n}" }
+      "prices": {
+        "all": "All prices",
+        "petits": "Up to €{n}",
+        "mid": "€{a} to €{b}",
+        "high": "Over €{n}"
+      }
     }
   },
   "blocks": {
@@ -124,7 +181,14 @@
   "reviews": {
     "eyebrow": "What people say",
     "title": "What comes up most in the reviews",
-    "themes": ["The shop", "The prices", "The choice", "The friendly welcome", "The jewellery", "The little treasures"],
+    "themes": [
+      "The shop",
+      "The prices",
+      "The choice",
+      "The friendly welcome",
+      "The jewellery",
+      "The little treasures"
+    ],
     "cta": "Read the reviews on Google"
   },
   "infos": {
@@ -145,12 +209,30 @@
     "eyebrow": "Questions",
     "title": "Before you drop by",
     "items": [
-      { "q": "What are your opening hours?", "a": "The shop is open Wednesday to Saturday, 10am to 7pm. Exceptional closures are announced at the top of the site." },
-      { "q": "When do new pieces arrive?", "a": "There are new arrivals every week. The pieces of the moment are on the New in page, and the banner at the top tells you when a delivery has just come in." },
-      { "q": "How do I reserve a piece?", "a": "Tap “Reserve on WhatsApp” under the piece, or fill in the reservation form: a ready-made message goes to the shop. The piece is kept aside for a few days, so you have time to come and collect it." },
-      { "q": "Which payment methods do you accept?", "a": "Cash and card. If in doubt, a quick WhatsApp message will tell you." },
-      { "q": "Do you take clothes on consignment?", "a": "It's being considered. Tell us about your clothes through the Consignment form, with photos: the shop replies directly on WhatsApp." },
-      { "q": "Where can I park?", "a": "The shop is at 151 rue Gaulthier de Rumilly, in the Henriville area. Park in the nearby streets; Amiens station is about fifteen minutes away on foot." }
+      {
+        "q": "What are your opening hours?",
+        "a": "The shop is open Wednesday to Saturday, 10am to 7pm. Exceptional closures are announced at the top of the site."
+      },
+      {
+        "q": "When do new pieces arrive?",
+        "a": "There are new arrivals every week. The pieces of the moment are on the New in page, and the banner at the top tells you when a delivery has just come in."
+      },
+      {
+        "q": "How do I reserve a piece?",
+        "a": "Tap “Reserve on WhatsApp” under the piece, or fill in the reservation form: a ready-made message goes to the shop. The piece is kept aside for a few days, so you have time to come and collect it."
+      },
+      {
+        "q": "Which payment methods do you accept?",
+        "a": "Cash and card. If in doubt, a quick WhatsApp message will tell you."
+      },
+      {
+        "q": "Do you take clothes on consignment?",
+        "a": "It's being considered. Tell us about your clothes through the Consignment form, with photos: the shop replies directly on WhatsApp."
+      },
+      {
+        "q": "Where can I park?",
+        "a": "The shop is at 151 rue Gaulthier de Rumilly, in the Henriville area. Park in the nearby streets; Amiens station is about fifteen minutes away on foot."
+      }
     ]
   },
   "footer": {
@@ -190,24 +272,56 @@
     "again": "Open WhatsApp",
     "preferCall": "Rather call?",
     "recapTitle": "Piece reservation, Fripes Merveilles",
-    "recap": { "piece": "Piece", "ref": "Reference", "size": "Size", "name": "Name", "phone": "Phone", "message": "Message", "from": "Sent from the website" }
+    "recap": {
+      "piece": "Piece",
+      "ref": "Reference",
+      "size": "Size",
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "from": "Sent from the website"
+    }
   },
   "depot": {
     "eyebrow": "Consignment",
     "title": "Offer your clothes",
     "lead": "Tell us what you'd like to leave with the shop. Consignment is to be confirmed with the shop, which replies directly on WhatsApp.",
     "steps": [
-      { "title": "You describe", "text": "The kind of pieces and how many, in a few clicks." },
-      { "title": "You send photos", "text": "Right in the WhatsApp chat that opens." },
-      { "title": "The shop replies", "text": "What it can take, and how to arrange it." }
+      {
+        "title": "You describe",
+        "text": "The kind of pieces and how many, in a few clicks."
+      },
+      {
+        "title": "You send photos",
+        "text": "Right in the WhatsApp chat that opens."
+      },
+      {
+        "title": "The shop replies",
+        "text": "What it can take, and how to arrange it."
+      }
     ],
     "fields": {
       "types": "Kind of clothing",
-      "typeList": { "femme": "Women", "homme": "Men", "enfant": "Children", "bijoux": "Jewellery", "sacs": "Bags and accessories", "chaussures": "Shoes", "vintage": "Vintage" },
+      "typeList": {
+        "femme": "Women",
+        "homme": "Men",
+        "enfant": "Children",
+        "bijoux": "Jewellery",
+        "sacs": "Bags and accessories",
+        "chaussures": "Shoes",
+        "vintage": "Vintage"
+      },
       "quantity": "How many",
-      "quantityList": { "few": "A few pieces (1 to 5)", "some": "A small bag (5 to 15)", "lot": "A batch (over 15)" },
+      "quantityList": {
+        "few": "A few pieces (1 to 5)",
+        "some": "A small bag (5 to 15)",
+        "lot": "A batch (over 15)"
+      },
       "photos": "Photos",
-      "photosList": { "yes": "I'll send my photos on WhatsApp", "later": "I'll send them later" },
+      "photosList": {
+        "yes": "I'll send my photos on WhatsApp",
+        "later": "I'll send them later"
+      },
       "photosHint": "WhatsApp doesn't let a website attach photos: you'll add them in the chat, right after your message.",
       "name": "Your name",
       "phone": "Your phone number",
@@ -223,13 +337,24 @@
     },
     "submit": "Send on WhatsApp",
     "recapTitle": "Consignment proposal, Fripes Merveilles",
-    "recap": { "types": "Kind of clothing", "quantity": "How many", "photos": "Photos", "name": "Name", "phone": "Phone", "message": "Details", "from": "Sent from the website" }
+    "recap": {
+      "types": "Kind of clothing",
+      "quantity": "How many",
+      "photos": "Photos",
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Details",
+      "from": "Sent from the website"
+    }
   },
   "prices": {
     "eyebrow": "Prices",
     "title": "Gentle prices, piece by piece",
     "lead": "In a thrift shop every piece has its own price, depending on fabric, label and condition. Here are the guide prices by family: the exact price is on the tag.",
-    "head": { "family": "Family", "price": "Price" },
+    "head": {
+      "family": "Family",
+      "price": "Price"
+    },
     "inShop": "Price in store",
     "from": "from {price}",
     "range": "{from} – {to}",
@@ -265,16 +390,37 @@
       "cta": "See what's new",
       "listTitle": "What you'll find in store",
       "list": [
-        { "title": "Women's clothing", "text": "Dresses, skirts, knitwear, blouses, jeans, jackets and coats, from XS to larger sizes depending on deliveries." },
-        { "title": "Men's clothing", "text": "Shirts, jumpers, sweatshirts, denim and jackets, from basics to pieces with character." },
-        { "title": "Vintage", "text": "Pieces from other decades, chosen for their cut, fabric or story." },
-        { "title": "Bargains", "text": "A corner of good deals to dress well without breaking the bank." }
+        {
+          "title": "Women's clothing",
+          "text": "Dresses, skirts, knitwear, blouses, jeans, jackets and coats, from XS to larger sizes depending on deliveries."
+        },
+        {
+          "title": "Men's clothing",
+          "text": "Shirts, jumpers, sweatshirts, denim and jackets, from basics to pieces with character."
+        },
+        {
+          "title": "Vintage",
+          "text": "Pieces from other decades, chosen for their cut, fabric or story."
+        },
+        {
+          "title": "Bargains",
+          "text": "A corner of good deals to dress well without breaking the bank."
+        }
       ],
       "whyTitle": "Why shop second hand",
       "why": [
-        { "title": "One-of-a-kind pieces", "text": "Nobody will wear the same thing as you: every garment is a single copy." },
-        { "title": "Kinder to the planet", "text": "Giving clothing a second life means less new fabric being made." },
-        { "title": "Fabrics that last", "text": "Wool, heavy cotton, leather: second hand often hides great quality." }
+        {
+          "title": "One-of-a-kind pieces",
+          "text": "Nobody will wear the same thing as you: every garment is a single copy."
+        },
+        {
+          "title": "Kinder to the planet",
+          "text": "Giving clothing a second life means less new fabric being made."
+        },
+        {
+          "title": "Fabrics that last",
+          "text": "Wool, heavy cotton, leather: second hand often hides great quality."
+        }
       ]
     },
     "bijoux": {
@@ -286,16 +432,37 @@
       "cta": "See this week's jewellery",
       "listTitle": "In the display cases",
       "list": [
-        { "title": "Rings", "text": "Coloured stones, signet rings, fine bands: there's one for every hand." },
-        { "title": "Earrings", "text": "Hoops, drops and vintage clip-ons, whatever your mood." },
-        { "title": "Necklaces", "text": "Chains, beads and pendants to lift a simple outfit." },
-        { "title": "Brooches and watches", "text": "Little objects from the past, to wear or to give." }
+        {
+          "title": "Rings",
+          "text": "Coloured stones, signet rings, fine bands: there's one for every hand."
+        },
+        {
+          "title": "Earrings",
+          "text": "Hoops, drops and vintage clip-ons, whatever your mood."
+        },
+        {
+          "title": "Necklaces",
+          "text": "Chains, beads and pendants to lift a simple outfit."
+        },
+        {
+          "title": "Brooches and watches",
+          "text": "Little objects from the past, to wear or to give."
+        }
       ],
       "whyTitle": "Giving second-hand jewellery",
       "why": [
-        { "title": "A gift with a story", "text": "An old piece of jewellery has something to tell: that's what makes it precious." },
-        { "title": "A gentle price", "text": "Second hand lets you give something beautiful without counting every euro." },
-        { "title": "Put aside for you", "text": "Spotted it on the site? One WhatsApp message and it waits for you in the shop." }
+        {
+          "title": "A gift with a story",
+          "text": "An old piece of jewellery has something to tell: that's what makes it precious."
+        },
+        {
+          "title": "A gentle price",
+          "text": "Second hand lets you give something beautiful without counting every euro."
+        },
+        {
+          "title": "Put aside for you",
+          "text": "Spotted it on the site? One WhatsApp message and it waits for you in the shop."
+        }
       ]
     }
   },
@@ -311,9 +478,25 @@
     "data": "Personal data",
     "dataText": "The site collects no data: the forms prepare a WhatsApp message that you send yourself, from your phone or computer. Nothing is stored on the site.",
     "photos": "Photos",
-    "photosText": "Photos of the shop and pieces: Fripes Merveilles. The site uses no stock images.",
+    "photosText": "Photos of the shop and pieces: Fripes & Merveilles (published on its Facebook page). The site uses no stock images.",
     "cookies": "Cookies",
     "cookiesText": "No advertising or analytics cookies. The site only remembers your language choice and whether you closed the announcement banner, on your device."
   },
-  "alt": {}
+  "alt": {
+    "robe-vintage-boutique": "Long geometric-print vintage dress on a mannequin among the rails of the Fripes & Merveilles shop",
+    "portant-chemisiers": "Rail of colourful blouses and dresses in the shop",
+    "comptoir-vitrines-bijoux": "The shop counter with its jewellery cases and accessories",
+    "manteaux-cuir-vitrine": "Long leather coat and sheepskin jacket on display in the window",
+    "devanture-bleue": "The blue shopfront of Fripes & Merveilles on the street corner",
+    "miroir-osier-boutique": "A wicker mirror reflecting the shop interior and its vintage finds",
+    "portant-mailles": "Rail of light-toned knit jumpers and cardigans",
+    "portant-vestes": "Rail of dark jackets and jumpers in the shop",
+    "combinaison-rouge-mannequin": "Red jumpsuit on a mannequin between the rails",
+    "portant-jeans": "Row of jeans on hangers",
+    "veste-fleurie-vintage": "Vintage floral jacket over a mustard dress",
+    "facade-angle-rue": "Fripes & Merveilles, a blue corner shopfront on rue Gaulthier de Rumilly",
+    "presentoir-bracelets": "Display of vintage bracelets in wood, resin and metal",
+    "collier-perles-vertes": "Necklace of large green beads on a bust",
+    "colliers-petits-prix": "Loose necklaces and a basket of bargain jewellery"
+  }
 }

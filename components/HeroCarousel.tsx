@@ -48,7 +48,7 @@ export function HeroCarousel({ slides }: { slides: (Img & { alt: string })[] }) 
         </motion.div>
       </AnimatePresence>
       {/* Voile prune en bas, pour la lisibilité du titre */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(58_34_48/0.78),rgb(58_34_48/0.15)_60%,transparent)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(58_34_48/0.92),rgb(58_34_48/0.55)_55%,rgb(58_34_48/0.2))] lg:bg-[linear-gradient(90deg,rgb(58_34_48/0.88),rgb(58_34_48/0.6)_38%,rgb(58_34_48/0.1)_68%,transparent)]" />
       {slides.length > 1 && (
         <div className="absolute end-5 bottom-6 z-10 flex gap-1 sm:end-8 lg:end-10">
           {slides.map((x, n) => (
