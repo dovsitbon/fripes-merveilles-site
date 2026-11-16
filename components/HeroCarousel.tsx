@@ -44,7 +44,7 @@ export function HeroCarousel({ slides }: { slides: (Img & { alt: string })[] }) 
     <div className="absolute inset-0 overflow-hidden bg-ink" role="region" aria-roledescription="carousel" aria-label={d.hero.slides}>
       <AnimatePresence initial={false}>
         <motion.div key={s.src} className="absolute inset-0" initial={{ opacity: 0, scale: reduce ? 1 : 1.04 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} transition={{ duration: reduce ? 0 : 1.4, ease: [0.22, 0.61, 0.36, 1] }}>
-          <Image src={s.src} width={s.width} height={s.height} alt={s.alt} sizes="100vw" priority={i === 0} quality={80} className="size-full object-cover" />
+          <Image src={s.src} width={s.width} height={s.height} alt={s.alt} sizes="(max-width: 1023px) 220vw, 100vw" priority={i === 0} quality={80} className="size-full object-cover" />
         </motion.div>
       </AnimatePresence>
       {/* Voile prune en bas, pour la lisibilité du titre */}
